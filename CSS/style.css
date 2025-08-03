@@ -366,12 +366,17 @@ header {
 }
 
 
+@media (max-width: 960px) {
+    
+}
+
+
 /* responsive */
 
-@media (max-width: 412px) {
+@media (max-width: 480px) {
 
     .container {
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
@@ -379,7 +384,7 @@ header {
     }
 
     .logo img {
-        width: 70%;
+        width: 0%;
     }
 
     .search-icon {
@@ -463,7 +468,7 @@ header {
     }
 
     .text1 img {
-        width: 100%;
+        width: 80%;
         
     }
 
@@ -485,7 +490,7 @@ header {
 }  */
 
     .containerr {
-        width: 117%;
+        width: 100%;
         margin: 0 auto;
 
     }
@@ -523,6 +528,12 @@ header {
         color: grey;
     }
 
+.flex{
+    display: block;
+    flex-direction: column;
+}
+
+    
     /* about us */
 
     .banner1 {
