@@ -22,7 +22,7 @@ header {
 
 .container {
     width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     font-family: roboto;
@@ -376,21 +376,24 @@ header {
 @media (max-width: 480px) {
 
     .container {
-        width: 100%;
+        width: 109%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         font-family: roboto;
     }
 
+    header{
+         padding:2% 3% 2% 3%;
+    }
     .logo img {
-        width: 0%;
+        width: 70%;
     }
 
     .search-icon {
         color: gray;
         display: block;
-        font-size: 160%;
+        font-size: 180%;
         display: block;
     }
     /* :hover .search-icon i{
