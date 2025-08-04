@@ -94,12 +94,13 @@ header {
 }
 
 .text1 h5 {
-    padding-top: 30px;
+    margin-top: 15px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-bottom: 15px;
     color: gray;
     font-size: 14px;
     margin-top: 70px;
+    
 }
 
 .text1 img {
@@ -384,7 +385,7 @@ header {
     }
 
     header{
-         padding:2% 9% 2% 9%;
+         padding:4% 9% 4% 5%;
     }
     .logo img {
         width: 70%;
@@ -393,22 +394,20 @@ header {
     .search-icon {
         color: gray;
         display: block;
-        font-size: 180%;
+        font-size: 170%;
         display: block;
     }
-    /* :hover .search-icon i{
-        color: red;
-    } */
-
+   
     .hdr-flex {
         display: flex;
         gap: 30%;
         align-items: center;
-        cursor: pointer;
+        
     }
 
     .btn {
         display: block;
+        padding: 18% 20% 18% 20% ;
         background-color: #2D2C2C;
         color: rgb(255, 221, 0);
         border-radius: 6px;
@@ -454,8 +453,8 @@ header {
         width: 100%;
         margin: 0 auto;
         display: block;
-        padding: 0 5% 0 5%;
-
+        padding: 3%;
+        align-items: center;
     }
 
     .text1 h5 {
@@ -466,29 +465,22 @@ header {
 
     .text1 img {
         width: 80%;
-        
+        object-fit: cover;
     }
     
 
     .bodr {
-       
+       width: 125%;
+       overflow: hidden;
         border-bottom: 1px solid rgb(205, 205, 205);
     }
 
-    /* FEATURED RESTAURANTS */
-
-    /* :hover .food{
-    scale: 2;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    background: fixed;
-    object-fit: cover;
-}  */
+  
+/* featured */
 
     .containerr {
-        width: 100%;
+        width: 125%;
         margin: 0 auto;
-
     }
 
     .view {
@@ -500,33 +492,36 @@ header {
     .flx {
         display: flex;
         justify-content: space-between;
-        padding-top: 6%;
+        
     }
 
     .food img {
         width: 100%;
-       height: 80%; 
+       height:80%; 
+       object-fit: cover;
+       padding-top: 6%;
     }
 
     .food h4 {
-        font-weight: 600;
+        font-weight: 500;
         text-align: center;
         font-size: 120%;
-        padding-top: 10px;
-        color: rgb(87, 86, 86);
+        padding-top: 3%;
+       
+        color: rgb(107, 106, 106);
     }
 
 
     .text2 h5 {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 100%;
-        padding-bottom: 3%;
         color: grey;
     }
 
 .flex{
     display: block;
     flex-direction: column;
+    
 }
 
     
@@ -539,6 +534,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 125%;
     }
 
     .aboutus h5 {
@@ -564,7 +560,7 @@ header {
     }
 
     .aboutus {
-        width: 490px;
+        width: 90%;
         margin: auto;
     }
 
@@ -572,9 +568,10 @@ header {
 
 
     .container5 {
-        width: 490px;
+        width: 125%;
         margin: auto;
         flex-direction: column;
+        
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
@@ -582,10 +579,15 @@ header {
         font-size: 40px;
         font-weight: 300;
         color: #2D2C2C;
-        padding-top: 30px;
-        flex: none;
+        padding-top: 18%;
+        
+
     }
 
+.flex3{
+
+ margin-right: 25%;
+}
     .pr {
         color: rgb(76, 76, 76);
         line-height: 1;
@@ -594,21 +596,57 @@ header {
 
     .pr1 {
         color: rgb(76, 76, 76);
-        padding-bottom: 30px;
+        padding-bottom: 6%;
         font-size: large;
 
     }
 
     .flex3 img {
         padding-top: 15px;
+        
     }
+
+
+/* request */
+
+
+.request {
+    background-color: #f7f7f7b6;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    border-top: 1px solid rgb(196, 196, 196);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    width: 125%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hh {
+    font-weight: 400;
+    font-size: 30px;
+    color: #2D2C2C;
+}
+
+.btn4 {
+    border: none;
+    background-color: #FFDD00;
+    margin: 8% 0;
+    padding: 3% 6%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
 
     /* footer */
 
     .container4 {
-        width: 490px;
+        width: 125%;
+        padding: 6%;
+        overflow: hidden;
         margin: auto;
-        margin-top: 40px;
+        margin-top: 20%;
         border-bottom: 1px solid rgb(212, 210, 210);
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
@@ -619,16 +657,18 @@ header {
     }
 
     .listing {
-        margin-bottom: 30px;
+        margin-bottom: 2%;
     }
 
-    .callus {
-        margin-bottom: 20px;
+    .callus h3{
+        margin-bottom: 0.8%;
     }
+.listing2{
+    padding-bottom: 1%;
+    margin-bottom: 6%;
 
-    .listing h3 {
-        padding-bottom: 10px;
-    }
+}
+  
 
     .listing ul {
         font-weight: 400;
@@ -636,14 +676,14 @@ header {
     }
 
     .last-txt {
-        display: flex;
+        flex-direction: column;
         gap: 10px;
         margin-bottom: 20px;
-        margin-top: 10px;
+        
     }
 
     .contact-icon {
-        margin-top: 10px;
+        margin-top: 3%;
     }
 
     .last-txt p {
@@ -668,11 +708,10 @@ header {
     }
 
     .flex-last {
-        display: flex;
-        justify-content: space-between;
-        width: 490px;
+        width: 125%;
+        display: flex;    
         margin: auto;
-
+        padding:1% 6% 1% 6%;
     }
 
     .flex-last p {
@@ -689,10 +728,10 @@ header {
 
     .up-logo i {
         position: fixed;
-        font-size: 50px;
-        bottom: 40px;
-        left: 450px;
-        color: gray;
+        font-size: 60px;
+        bottom: 8%;
+        left: 80%;
+        color: rgb(101, 101, 101);
 
     }
 
